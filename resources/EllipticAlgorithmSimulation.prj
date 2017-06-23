@@ -1,0 +1,125 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2169395611" file="C:\Users\lehuu\Documents\MATLAB\EllipticAlgorithmSimulation\EllipticAlgorithmSimulation.prj" location="C:\Users\lehuu\Documents\MATLAB\EllipticAlgorithmSimulation" name="EllipticAlgorithmSimulation" preferred-package-location="C:\Users\lehuu\Documents\MATLAB\EllipticAlgorithmSimulation\EllipticAlgorithmSimulation\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications">
+    <param.appname>EllipticAlgorithmSimulation</param.appname>
+    <param.icon>${PROJECT_ROOT}\EllipticAlgorithmSimulation_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\EllipticAlgorithmSimulation_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\EllipticAlgorithmSimulation_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\EllipticAlgorithmSimulation_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\EllipticAlgorithmSimulation_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Le Huu Tai, Dang Phan Xuan Hoang</param.authnamewatermark>
+    <param.email>lehuutai120995@gmail.com</param.email>
+    <param.company>University of Information Technology</param.company>
+    <param.summary>Phần mềm mô phỏng thuật toán elliptic curve</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\lehuu\Desktop\elliptic3 - Copy.jpg</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\University of Information Technology\EllipticAlgorithmSimulation\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\EllipticAlgorithmSimulation\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\EllipticAlgorithmSimulation\for_redistribution</param.output>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.server.ctf>${PROJECT_ROOT}\EllipticAlgorithmSimulation\for_testing\.ctf</param.server.ctf>
+    <param.server.readme>${PROJECT_ROOT}\EllipticAlgorithmSimulation\for_testing\readme.txt</param.server.readme>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.version />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Test.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>C:\Users\lehuu\Desktop\elliptic3 - Copy.jpg</file>
+      <file>${PROJECT_ROOT}\elliptic2.png</file>
+      <file>${PROJECT_ROOT}\Test.fig</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\EllipticAlgorithmSimulation\for_testing" name="readme.txt" optional="true">C:\Users\lehuu\Documents\MATLAB\EllipticAlgorithmSimulation\EllipticAlgorithmSimulation\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\EllipticAlgorithmSimulation\for_testing" name="splash.png" optional="false">C:\Users\lehuu\Documents\MATLAB\EllipticAlgorithmSimulation\EllipticAlgorithmSimulation\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\EllipticAlgorithmSimulation\for_testing" name="EllipticAlgorithmSimulation.exe" optional="false">C:\Users\lehuu\Documents\MATLAB\EllipticAlgorithmSimulation\EllipticAlgorithmSimulation\for_testing\EllipticAlgorithmSimulation.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>L:\Software\MathlabR2014</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
